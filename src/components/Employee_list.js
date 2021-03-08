@@ -7,32 +7,32 @@ function Employee_list(props) {
       <thead>
         <tr>
           <th>Image</th>
-          <th>Name</th>
           <th>
-            Phone{" "}
+            Name{" "}
             <button className='filter' onClick={props.sortPhone}>
               <i className='fas fa-filter'></i>
             </button>
           </th>
+          <th>Phone</th>
+          <th>Email</th>
           <th>
-            Email{" "}
+            DOB{" "}
             <button className='filter' onClick={props.sortEmail}>
-              <i>className="fas fa=filter"</i>
+              <i className='fas fa-sort'></i>
             </button>
           </th>
-          <th>DOB</th>
         </tr>
       </thead>
       <tbody>
         {props.list.map((person) => (
           <tr>
             <td>
-              <img alt={props.name} src={props.image} />
+              <img alt={person.name} src={person.image} />
             </td>
-            <td>{props.name}</td>
-            <td>{props.phone}</td>
-            <td>{props.email}</td>
-            <td>{props.dob}</td>
+            <td>{person.name}</td>
+            <td>{person.phone}</td>
+            <td>{person.email}</td>
+            <td>{person.dob}</td>
           </tr>
         ))}
       </tbody>

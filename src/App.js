@@ -1,21 +1,20 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 import EmployeeList from "./components/Employee_list";
-import "./components/style.css"
+import "./components/style.css";
 // import employees from "./employees.json";
 
 class App extends Component {
-
-  state = {
-    list: employees
-  }
-
+  // state = {
+  //   list: employees
+  // }
 
   render() {
     return (
       <div>
         <Navbar />
-        <EmployeeList />
+        <Main />
         {/* {this.state.list.map((item) => (
           <EmployeeList
             key={item.id}
@@ -26,7 +25,6 @@ class App extends Component {
             dob={item.dob}
           />
         ))} */}
-
       </div>
     );
   }
