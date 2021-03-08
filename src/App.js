@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import Navbar from "./components/Navbar"
 import EmployeeList from "./components/Employee_list";
-import employees from "./employees.json";
+import "./components/style.css"
+// import employees from "./employees.json";
 
 class App extends Component {
 
@@ -12,7 +14,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        {this.state.list.map((item) => (
+        <Navbar />
+        <EmployeeList />
+        {/* {this.state.list.map((item) => (
           <EmployeeList
             key={item.id}
             image={item.image}
@@ -21,7 +25,8 @@ class App extends Component {
             email={item.email}
             dob={item.dob}
           />
-        ))}
+        ))} */}
+
       </div>
     );
   }
