@@ -1,0 +1,570 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Ralph",
+                "last": "Fuller"
+            },
+            "location": {
+                "street": {
+                    "number": 1893,
+                    "name": "Pecan Acres Ln"
+                },
+                "city": "Clarksville",
+                "state": "Delaware",
+                "country": "United States",
+                "postcode": 81627,
+                "coordinates": {
+                    "latitude": "-12.0407",
+                    "longitude": "-73.6006"
+                },
+                "timezone": {
+                    "offset": "+4:00",
+                    "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+                }
+            },
+            "email": "ralph.fuller@example.com",
+            "login": {
+                "uuid": "c493922c-ba4d-4330-892c-6c46aafc8218",
+                "username": "blackpeacock476",
+                "password": "mittens",
+                "salt": "RPp2omaF",
+                "md5": "7db6a9e87b151284a8c038dfc8bfb7d6",
+                "sha1": "50586b566417354c8bae980219cd3fceeff39967",
+                "sha256": "263bf2b22ff1ce87032b1468374691165bdf9381338845aad5b215ceb44714a9"
+            },
+            "dob": {
+                "date": "1985-08-04T01:07:54.640Z",
+                "age": 36
+            },
+            "registered": {
+                "date": "2007-05-31T01:33:37.908Z",
+                "age": 14
+            },
+            "phone": "(669)-751-0512",
+            "cell": "(611)-420-0797",
+            "id": {
+                "name": "SSN",
+                "value": "104-98-0291"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/39.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/39.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/39.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Noah",
+                "last": "Stanley"
+            },
+            "location": {
+                "street": {
+                    "number": 2409,
+                    "name": "Smokey Ln"
+                },
+                "city": "Miami",
+                "state": "South Dakota",
+                "country": "United States",
+                "postcode": 44942,
+                "coordinates": {
+                    "latitude": "-71.7114",
+                    "longitude": "-75.2740"
+                },
+                "timezone": {
+                    "offset": "-10:00",
+                    "description": "Hawaii"
+                }
+            },
+            "email": "noah.stanley@example.com",
+            "login": {
+                "uuid": "9126311c-fc30-47ee-83f3-22bd13c8d61b",
+                "username": "ticklishpeacock950",
+                "password": "christine",
+                "salt": "fUpHFgWR",
+                "md5": "81daad4d9d15eb2245eb3a7e1b645d7f",
+                "sha1": "64b668f1e7db4638fdc6add20a535c4a32152fb4",
+                "sha256": "51298d0a6d0ed66fdbd14ded4dbeac7b267dbfc0f85c8581f6f6530fc0a3cbf4"
+            },
+            "dob": {
+                "date": "1978-03-07T15:28:20.969Z",
+                "age": 43
+            },
+            "registered": {
+                "date": "2017-12-04T01:19:09.444Z",
+                "age": 4
+            },
+            "phone": "(812)-404-1970",
+            "cell": "(711)-628-4734",
+            "id": {
+                "name": "SSN",
+                "value": "146-11-6477"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/0.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/0.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/0.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Hector",
+                "last": "Howell"
+            },
+            "location": {
+                "street": {
+                    "number": 4666,
+                    "name": "Wheeler Ridge Dr"
+                },
+                "city": "Boulder",
+                "state": "Idaho",
+                "country": "United States",
+                "postcode": 23749,
+                "coordinates": {
+                    "latitude": "-44.9974",
+                    "longitude": "15.9238"
+                },
+                "timezone": {
+                    "offset": "-10:00",
+                    "description": "Hawaii"
+                }
+            },
+            "email": "hector.howell@example.com",
+            "login": {
+                "uuid": "81cb3dcf-9e0d-4137-872f-b1c21a4d7c57",
+                "username": "happybear422",
+                "password": "merlot",
+                "salt": "iAIOMLr2",
+                "md5": "4860476bd7ea0103ff486a1914b8918f",
+                "sha1": "38dda4197f488a4b187674da5fe7b60bae46ce3e",
+                "sha256": "09ea7040c8d8ec40dba16c355b9512fa682acb415597b23c735e1f42803b40fe"
+            },
+            "dob": {
+                "date": "1983-04-08T03:35:33.502Z",
+                "age": 38
+            },
+            "registered": {
+                "date": "2017-07-13T17:10:21.501Z",
+                "age": 4
+            },
+            "phone": "(687)-598-4035",
+            "cell": "(799)-416-7724",
+            "id": {
+                "name": "SSN",
+                "value": "022-17-5799"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/58.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/58.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/58.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Harold",
+                "last": "Mckinney"
+            },
+            "location": {
+                "street": {
+                    "number": 647,
+                    "name": "Sunset St"
+                },
+                "city": "Sunnyvale",
+                "state": "New Jersey",
+                "country": "United States",
+                "postcode": 28004,
+                "coordinates": {
+                    "latitude": "-61.8288",
+                    "longitude": "-31.4527"
+                },
+                "timezone": {
+                    "offset": "-8:00",
+                    "description": "Pacific Time (US & Canada)"
+                }
+            },
+            "email": "harold.mckinney@example.com",
+            "login": {
+                "uuid": "a32a6bcc-5661-47f1-b226-8a994d9605bd",
+                "username": "beautifulmouse709",
+                "password": "soprano",
+                "salt": "U8dUX1V2",
+                "md5": "a656ae16288427eb48290292ca00a536",
+                "sha1": "7d6b9e79a8f3fdbd270a555c9eda319551abd826",
+                "sha256": "3dda68ac9ca7e6a85a675dba27519cc90df89a42528eccbc4c3ef2c3b5031115"
+            },
+            "dob": {
+                "date": "1998-09-26T11:00:53.142Z",
+                "age": 23
+            },
+            "registered": {
+                "date": "2016-08-22T17:52:10.128Z",
+                "age": 5
+            },
+            "phone": "(867)-382-9162",
+            "cell": "(481)-940-6735",
+            "id": {
+                "name": "SSN",
+                "value": "660-95-6436"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/22.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/22.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/22.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Milton",
+                "last": "Jenkins"
+            },
+            "location": {
+                "street": {
+                    "number": 9916,
+                    "name": "W 6th St"
+                },
+                "city": "Newark",
+                "state": "Vermont",
+                "country": "United States",
+                "postcode": 33780,
+                "coordinates": {
+                    "latitude": "14.4278",
+                    "longitude": "61.7991"
+                },
+                "timezone": {
+                    "offset": "0:00",
+                    "description": "Western Europe Time, London, Lisbon, Casablanca"
+                }
+            },
+            "email": "milton.jenkins@example.com",
+            "login": {
+                "uuid": "dc8ec705-9bff-461a-bc36-1332c8beec06",
+                "username": "happyfish608",
+                "password": "krystal",
+                "salt": "MFt2TZMe",
+                "md5": "e7773b541b26968059694076d7c06b8f",
+                "sha1": "bf6914f5981d5671494fa5abc2e861d019df4edd",
+                "sha256": "8c409c3a3744b3221d3c70f4d388e227b7b16201f0420ae00de58b25e891fff7"
+            },
+            "dob": {
+                "date": "1973-10-13T13:01:48.432Z",
+                "age": 48
+            },
+            "registered": {
+                "date": "2015-03-01T14:43:16.628Z",
+                "age": 6
+            },
+            "phone": "(105)-725-1792",
+            "cell": "(246)-669-0472",
+            "id": {
+                "name": "SSN",
+                "value": "928-64-7158"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/93.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/93.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/93.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Alfredo",
+                "last": "Evans"
+            },
+            "location": {
+                "street": {
+                    "number": 6580,
+                    "name": "Dane St"
+                },
+                "city": "Burbank",
+                "state": "Utah",
+                "country": "United States",
+                "postcode": 69403,
+                "coordinates": {
+                    "latitude": "13.0713",
+                    "longitude": "-126.0012"
+                },
+                "timezone": {
+                    "offset": "-11:00",
+                    "description": "Midway Island, Samoa"
+                }
+            },
+            "email": "alfredo.evans@example.com",
+            "login": {
+                "uuid": "1cd93bf0-bcdc-4dd0-9afd-3dac5d3f2a37",
+                "username": "bigmouse447",
+                "password": "luna",
+                "salt": "y4unMnyQ",
+                "md5": "ef492c806c4029ca9dc6dfc5e5c88f48",
+                "sha1": "89c4f8b6ec29606e9386812bca326f33180ec44b",
+                "sha256": "a2062adc66d995a3f224ec2d6a23bb93dba22e9b2d8aa83cb57ed1e64528b260"
+            },
+            "dob": {
+                "date": "1952-01-17T13:02:12.681Z",
+                "age": 69
+            },
+            "registered": {
+                "date": "2005-06-14T21:31:16.852Z",
+                "age": 16
+            },
+            "phone": "(562)-470-2076",
+            "cell": "(324)-399-5645",
+            "id": {
+                "name": "SSN",
+                "value": "748-20-4042"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/90.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/90.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/90.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Jim",
+                "last": "Thomas"
+            },
+            "location": {
+                "street": {
+                    "number": 6111,
+                    "name": "Timber Wolf Trail"
+                },
+                "city": "Houston",
+                "state": "Nebraska",
+                "country": "United States",
+                "postcode": 20974,
+                "coordinates": {
+                    "latitude": "65.2825",
+                    "longitude": "-121.0484"
+                },
+                "timezone": {
+                    "offset": "+8:00",
+                    "description": "Beijing, Perth, Singapore, Hong Kong"
+                }
+            },
+            "email": "jim.thomas@example.com",
+            "login": {
+                "uuid": "f70ac489-a1f9-4a75-a53b-76fd9e4984db",
+                "username": "smallgoose916",
+                "password": "3030",
+                "salt": "IrztV1F1",
+                "md5": "36f27b2ad0c0407db371e129a1b1e85a",
+                "sha1": "535840d482ba9c685f448c1d34a9ff5c1e89e068",
+                "sha256": "96bf717992f313407f83af6a8903f57b4ced9eef30580270c733bf4cafb57aa3"
+            },
+            "dob": {
+                "date": "1964-03-29T03:44:33.615Z",
+                "age": 57
+            },
+            "registered": {
+                "date": "2014-07-17T09:57:16.111Z",
+                "age": 7
+            },
+            "phone": "(495)-593-0696",
+            "cell": "(986)-761-2411",
+            "id": {
+                "name": "SSN",
+                "value": "034-17-2151"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/74.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/74.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Erin",
+                "last": "Rogers"
+            },
+            "location": {
+                "street": {
+                    "number": 3666,
+                    "name": "Spring Hill Rd"
+                },
+                "city": "Rancho Cucamonga",
+                "state": "Maine",
+                "country": "United States",
+                "postcode": 90748,
+                "coordinates": {
+                    "latitude": "58.2165",
+                    "longitude": "44.5078"
+                },
+                "timezone": {
+                    "offset": "0:00",
+                    "description": "Western Europe Time, London, Lisbon, Casablanca"
+                }
+            },
+            "email": "erin.rogers@example.com",
+            "login": {
+                "uuid": "186498be-218c-4483-8e44-7aaae17c3e4e",
+                "username": "bluefrog763",
+                "password": "shelby",
+                "salt": "WOjySpDt",
+                "md5": "8250373c3057410da6cf3d1780f158c5",
+                "sha1": "f447acf06b998e5f8794d0bbeb39b26842960607",
+                "sha256": "8b936a910300cb665f03eecbf5ca6bc05d6bc8b04c2d4c24d77dc22f4e044226"
+            },
+            "dob": {
+                "date": "1969-05-18T06:38:36.421Z",
+                "age": 52
+            },
+            "registered": {
+                "date": "2012-06-03T20:04:50.624Z",
+                "age": 9
+            },
+            "phone": "(480)-820-9551",
+            "cell": "(396)-852-6601",
+            "id": {
+                "name": "SSN",
+                "value": "184-14-8748"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/5.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/5.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/5.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Jennifer",
+                "last": "Powell"
+            },
+            "location": {
+                "street": {
+                    "number": 1803,
+                    "name": "Shady Ln Dr"
+                },
+                "city": "Salem",
+                "state": "Washington",
+                "country": "United States",
+                "postcode": 81116,
+                "coordinates": {
+                    "latitude": "32.9311",
+                    "longitude": "-21.3633"
+                },
+                "timezone": {
+                    "offset": "-6:00",
+                    "description": "Central Time (US & Canada), Mexico City"
+                }
+            },
+            "email": "jennifer.powell@example.com",
+            "login": {
+                "uuid": "c29ea203-0a21-4da6-a539-36b819622e8a",
+                "username": "purplecat626",
+                "password": "paradigm",
+                "salt": "MBHfqCHG",
+                "md5": "5d21beb5b7eff1c0d14ff3def2fac0d7",
+                "sha1": "efd98526454c991a9bc1521c6987a9ea4523e6da",
+                "sha256": "1255d6bf58be09851a6287a6845b96d7b2a06cc426c18d3b676033e27f384b87"
+            },
+            "dob": {
+                "date": "1975-05-09T21:20:10.909Z",
+                "age": 46
+            },
+            "registered": {
+                "date": "2005-12-30T12:26:13.709Z",
+                "age": 16
+            },
+            "phone": "(069)-658-2152",
+            "cell": "(333)-285-6073",
+            "id": {
+                "name": "SSN",
+                "value": "139-78-4042"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/18.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/18.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/18.jpg"
+            },
+            "nat": "US"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Liam",
+                "last": "Thompson"
+            },
+            "location": {
+                "street": {
+                    "number": 2422,
+                    "name": "Robinson Rd"
+                },
+                "city": "Waco",
+                "state": "Oregon",
+                "country": "United States",
+                "postcode": 50762,
+                "coordinates": {
+                    "latitude": "-36.1895",
+                    "longitude": "-34.9707"
+                },
+                "timezone": {
+                    "offset": "-9:00",
+                    "description": "Alaska"
+                }
+            },
+            "email": "liam.thompson@example.com",
+            "login": {
+                "uuid": "b040b963-75ff-4996-8c7c-406074c08ed9",
+                "username": "purplerabbit351",
+                "password": "reagan",
+                "salt": "vv9TjcW0",
+                "md5": "0e104774331abe0723b2e95af8e7116f",
+                "sha1": "7646408b6161abe9b426da4aa1f04d52339b779e",
+                "sha256": "82f201e314ba00b77bd40dbe3ac038856581ca76472f39bd1b5c42be93281815"
+            },
+            "dob": {
+                "date": "1996-07-10T02:12:19.040Z",
+                "age": 25
+            },
+            "registered": {
+                "date": "2014-10-16T20:28:34.364Z",
+                "age": 7
+            },
+            "phone": "(842)-675-3772",
+            "cell": "(635)-511-1074",
+            "id": {
+                "name": "SSN",
+                "value": "973-35-8665"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/81.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/81.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/81.jpg"
+            },
+            "nat": "US"
+        }
+    ],
+    "info": {
+        "seed": "f1790d99091d62da",
+        "results": 10,
+        "page": 1,
+        "version": "1.3"
+    }
+}
