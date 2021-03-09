@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 function Employee_list(props) {
+
   return (
     <table>
       <thead>
@@ -24,15 +25,15 @@ function Employee_list(props) {
         </tr>
       </thead>
       <tbody>
-        {props.list.map((person) => (
+        {props.list.map(person => (
           <tr>
             <td>
-              <img alt={person.name} src={person.image} />
+              <img alt={person.name.first} src={person.picture.thumbnail} />
             </td>
-            <td>{person.name}</td>
+            <td>{person.name.first} {person.name.last}</td>
             <td>{person.phone}</td>
             <td>{person.email}</td>
-            <td>{person.dob}</td>
+            <td>{person.dob.date}</td>
           </tr>
         ))}
       </tbody>
