@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
-import EmployeeList from "./components/Employee_list";
 import "./components/style.css";
 
 function App() {
