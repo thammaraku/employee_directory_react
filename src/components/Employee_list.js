@@ -26,7 +26,7 @@ function Employee_list(props) {
       </thead>
       <tbody>
         {props.list.map(person => (
-          <tr>
+          <tr key={person.cell}>
             <td>
               <img alt={person.name.first} src={person.picture.thumbnail} />
             </td>
