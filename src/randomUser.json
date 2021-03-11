@@ -1,0 +1,226 @@
+[
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Ivan",
+            "last": "Moore"
+        },
+        "location": {
+            "street": {
+                "number": 2200,
+                "name": "W Gray St"
+            },
+            "city": "Denver",
+            "state": "New Jersey",
+            "country": "United States",
+            "postcode": 60664,
+            "coordinates": {
+                "latitude": "-59.1042",
+                "longitude": "-57.8858"
+            },
+            "timezone": {
+                "offset": "-1:00",
+                "description": "Azores, Cape Verde Islands"
+            }
+        },
+        "email": "ivan.moore@example.com",
+        "login": {
+            "uuid": "7963e399-767e-42ca-96c7-9e07ef4b83b2",
+            "username": "smallladybug626",
+            "password": "groups",
+            "salt": "CxC6hXPM",
+            "md5": "21b76d18eb74a75bb4fbf9e49e4cfc8d",
+            "sha1": "a662a6d296f8d1cce0560086a04c5556e5b7dba0",
+            "sha256": "df5ae9cb082a119d177f4a18c05095b947d221292f23a5f322709019c15bb454"
+        },
+        "dob": {
+            "date": "1994-03-06T23:19:10.943Z",
+            "age": 27
+        },
+        "registered": {
+            "date": "2002-09-22T23:25:26.583Z",
+            "age": 19
+        },
+        "phone": "(992)-752-7107",
+        "cell": "(383)-674-2363",
+        "id": {
+            "name": "SSN",
+            "value": "512-21-7429"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/45.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+        },
+        "nat": "US"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Cecil",
+            "last": "Nichols"
+        },
+        "location": {
+            "street": {
+                "number": 1991,
+                "name": "Adams St"
+            },
+            "city": "Ontario",
+            "state": "Florida",
+            "country": "United States",
+            "postcode": 41343,
+            "coordinates": {
+                "latitude": "-74.5759",
+                "longitude": "87.4467"
+            },
+            "timezone": {
+                "offset": "-12:00",
+                "description": "Eniwetok, Kwajalein"
+            }
+        },
+        "email": "cecil.nichols@example.com",
+        "login": {
+            "uuid": "5d6bc634-a593-4343-b74f-862a030a25db",
+            "username": "beautifulpeacock794",
+            "password": "imation",
+            "salt": "ZS00ujep",
+            "md5": "7734c66a5c866148f5c61d8fbba7dba2",
+            "sha1": "d76a109667dfb72c2b1c0e226b0d57cea59adf15",
+            "sha256": "f9c96f775e9add2b712eb9abec8944dd5c1f69844de4b63b05e3500f94bb85f6"
+        },
+        "dob": {
+            "date": "1990-03-23T05:15:21.735Z",
+            "age": 31
+        },
+        "registered": {
+            "date": "2010-01-03T23:19:58.924Z",
+            "age": 11
+        },
+        "phone": "(413)-348-1495",
+        "cell": "(125)-558-5943",
+        "id": {
+            "name": "SSN",
+            "value": "167-04-1468"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/27.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/27.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/27.jpg"
+        },
+        "nat": "US"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Mrs",
+            "first": "Linda",
+            "last": "Mason"
+        },
+        "location": {
+            "street": {
+                "number": 5467,
+                "name": "Harrison Ct"
+            },
+            "city": "Plano",
+            "state": "Arizona",
+            "country": "United States",
+            "postcode": 36932,
+            "coordinates": {
+                "latitude": "88.9357",
+                "longitude": "179.9716"
+            },
+            "timezone": {
+                "offset": "+4:30",
+                "description": "Kabul"
+            }
+        },
+        "email": "linda.mason@example.com",
+        "login": {
+            "uuid": "521470cc-d747-4355-bd26-f824999d9e65",
+            "username": "lazykoala517",
+            "password": "&amp",
+            "salt": "QwSmOSCR",
+            "md5": "da98117e6fc19b19a4d885b0dedf2ef6",
+            "sha1": "0b61eeb0b1c5f58494326d95dc16a98707ae6baf",
+            "sha256": "0a5ab3b194b9f0da2f651c0f0eb833a6c9fb5d068dd65cf1100dc074583ad720"
+        },
+        "dob": {
+            "date": "1951-12-14T17:27:08.706Z",
+            "age": 70
+        },
+        "registered": {
+            "date": "2016-05-02T20:56:11.055Z",
+            "age": 5
+        },
+        "phone": "(178)-125-7285",
+        "cell": "(228)-160-3467",
+        "id": {
+            "name": "SSN",
+            "value": "462-76-7119"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/4.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/4.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
+        },
+        "nat": "US"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Ms",
+            "first": "Roberta",
+            "last": "Scott"
+        },
+        "location": {
+            "street": {
+                "number": 2009,
+                "name": "College St"
+            },
+            "city": "Jersey City",
+            "state": "Kentucky",
+            "country": "United States",
+            "postcode": 64577,
+            "coordinates": {
+                "latitude": "-68.9179",
+                "longitude": "58.7976"
+            },
+            "timezone": {
+                "offset": "+9:00",
+                "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+            }
+        },
+        "email": "roberta.scott@example.com",
+        "login": {
+            "uuid": "b0727adc-d988-4a85-a04b-5b3ab7b07772",
+            "username": "bluepanda604",
+            "password": "lauren",
+            "salt": "4Kfa7zGV",
+            "md5": "4258d652dc24b07e28fe260fe5641144",
+            "sha1": "d9ad97f3bf9e5d9fb9039af821d12ac5aecd8bc7",
+            "sha256": "679799e0e40e115f965158acd0a548ddf6c9fbb93346b3e61f124de5b3a91b5a"
+        },
+        "dob": {
+            "date": "1950-12-30T15:25:39.893Z",
+            "age": 71
+        },
+        "registered": {
+            "date": "2007-10-27T13:09:35.858Z",
+            "age": 14
+        },
+        "phone": "(974)-404-0384",
+        "cell": "(605)-575-2887",
+        "id": {
+            "name": "SSN",
+            "value": "570-72-6877"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/56.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/56.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/56.jpg"
+        },
+        "nat": "US"
+    }
+]
