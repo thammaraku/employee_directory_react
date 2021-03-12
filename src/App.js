@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import SearchBox from "./components/SearchBox";
 import "./components/style.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     return (
       <div>
         <Navbar />
-        <Main />
+        <SearchBox />
       </div>
     );
 }

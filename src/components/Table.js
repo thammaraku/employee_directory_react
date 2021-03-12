@@ -1,17 +1,14 @@
 import React from "react";
 import "./style.css";
 
-function Employee_list(props) {
+function Table(props) {
   return (
     <table>
       <thead>
         <tr>
           <th>Image</th>
           <th>
-            Name{" "}
-            <button className='filter' onClick={props.filterName}>
-              <i className='fas fa-filter'></i>
-            </button>
+            Name
           </th>
           <th>Phone</th>
           <th>Email</th>
@@ -42,4 +39,4 @@ function Employee_list(props) {
   );
 }
 
-export default Employee_list;
+export default Table;

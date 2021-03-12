@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
+import React from "react";
+import "./style.css";
 
-export class Navbar extends Component {
-    render() {
-        return (
-            <nav  className="container navbar bg-success">
-                <h1>Employee Directory</h1>
-                <p>Click on carrots to filter by heading or use the search box to narrow your results.</p>
-            </nav>
-        )
-    }
+function Navbar() {
+  return (
+    <nav className="bg-success text-white">
+      <h1 className="text-center p-3 m-3">Employee Directory</h1>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
