@@ -2,22 +2,32 @@ import React from "react";
 import "./style.css";
 
 function Table(props) {
+
+
   return (
-    <table>
+    <table className="container">
       <thead>
         <tr>
           <th>Image</th>
           <th>
-            Name
-          </th>
-          <th>Phone</th>
-          <th>Email</th>
+            Name{" "}
+            <button className='filter' onClick={props.sortName}>
+              <i className='fas fa-sort'></i>
+            </button></th>
           <th>
-            DOB{" "}
+            Gender{" "}
+            <button className='filter' onClick={props.sortGender}>
+              <i className='fas fa-sort'></i>
+            </button></th>
+          <th>
+            Age{" "}
             <button className='filter' onClick={props.sortDOB}>
               <i className='fas fa-sort'></i>
             </button>
           </th>
+          <th>Phone</th>
+          <th>Email</th>
+
         </tr>
       </thead>
       <tbody>
@@ -29,9 +39,10 @@ function Table(props) {
             <td>
               {person.name.first} {person.name.last}
             </td>
+            <td>{person.gender}</td>
+            <td>{person.dob.age}</td>
             <td>{person.phone}</td>
-            <td>{person.email}</td>
-            <td>{person.dob.date}</td>
+            <td style={{wordBreak: 'break-all'}}>{person.email}</td>
           </tr>
         ))}
       </tbody>

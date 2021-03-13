@@ -60,10 +60,18 @@ table {
 td, th {
   /* border: 1px solid #dddddd; */
   border: 1px solid black;
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+thead {
+  background-color: #dddddd;
+}
+
+.filter {
+  float: right;
 }

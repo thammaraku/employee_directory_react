@@ -5,18 +5,29 @@ import Table from "./Table";
 
 import random from "../randomUser.json";
 
+
 function SearchBox() {
   const [users, setUsers] = useState([]);
+  // const [users, setUsers] = useState({
+  //   users: [],
+  //   order: "ascend"
+  // });
   const [search, setSearch] = useState([]);
   const [users_origin, setUsersOrigin] = useState([]);
+
+
 
   useEffect(() => {
     API.randomUsers().then((res) => {
       console.log(res);
-      // setUsers(res.data.results);
-      // setUsersOrigin(res.data.results);
-      setUsers(random);
-      setUsersOrigin(random);
+
+      // To use data from API
+      setUsers(res.data.results);
+      setUsersOrigin(res.data.results);
+
+      // To use data from JSON
+      // setUsers(random);
+      // setUsersOrigin(random);
     });
   }, []);
 
@@ -56,8 +67,8 @@ function SearchBox() {
 
   function sortDOB(event) {
 
-    console.log(event);
     const sorted = users.sort(function (user1, user2) {
+
       if (user1.dob.date < user2.dob.date) {
         return -1;
       }
@@ -65,36 +76,67 @@ function SearchBox() {
         return 1;
       }
       return 0;
+
     });
-    // console.log(JSON.stringify(sorted));
-    console.log(sorted);
-    console.log([...sorted]);
-    // Why do we need spread here
+
     setUsers([...sorted])
-    // setUsers(sorted)
   }
 
+  function sortName(event) {
+
+    const sorted = users.sort(function (user1, user2) {
+
+      if (user1.name.first < user2.name.first) {
+        return -1;
+      }
+      if (user1.name.first > user2.name.first) {
+        return 1;
+      }
+      return 0;
+
+    });
+
+    setUsers([...sorted])
+  }
+
+  function sortGender(event) {
+
+    const sorted = users.sort(function (user1, user2) {
+
+      if (user1.gender < user2.gender) {
+        return -1;
+      }
+      if (user1.gender > user2.gender) {
+        return 1;
+      }
+      return 0;
+
+    });
+
+    setUsers([...sorted])
+  }
+  
   return (
     <div className='container'>
-      
-      <div class="input-group container w-50 p-3 mt-3 mb-3">
-          <input
-            value={search}
-            onChange={handleInputChange}
-            className='form-control'
-            placeholder='Search Employee Name'
-            type='text'
-          />
-          <button className='btn btn-primary' onClick={handleFormSubmit} type='submit' id='search-button'>
-            <i className='fas fa-search'></i>
-          </button>
-          <button className='btn btn-danger' onClick={clearSearch}>
-            <i className='fas fa-window-close'></i>
-          </button>
+
+      <div className="input-group container w-50 p-3 mt-3 mb-3">
+        <input
+          value={search}
+          onChange={handleInputChange}
+          className='form-control'
+          placeholder='Search Employee Name'
+          type='text'
+        />
+        <button className='btn btn-primary' onClick={handleFormSubmit} type='submit' id='search-button'>
+          <i className='fas fa-search'></i>
+        </button>
+        <button className='btn btn-danger' onClick={clearSearch}>
+          <i className='fas fa-window-close'></i>
+        </button>
       </div>
 
       <div className='container'>
-        <Table list={users} sortDOB={sortDOB} />
+        <Table list={users} sortDOB={sortDOB} sortName={sortName} sortGender={sortGender}/>
       </div>
 
     </div>
