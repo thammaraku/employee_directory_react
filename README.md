@@ -1,7 +1,7 @@
 # Employee Directory React
 
 ## Objective
-To create a employee directory application to view non-sensitive data of entire employees. Filter and sort function to allows user to have quick access to specific employees.
+To create an employee directory application to view non-sensitive data of entire employees. Filter and sort function are needed to allow users to have quick access to specific employees.
 
 ## Acceptance Criteria
 - Generate table of random users from the Random User API
