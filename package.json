@@ -1,5 +1,6 @@
 {
   "name": "employee_directory",
+  "homepage": "https://thammaraku.github.io/employee_directory_react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://thammaraku.github.io/employee_directory_react/",
+
 }
