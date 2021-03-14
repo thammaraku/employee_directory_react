@@ -4,10 +4,10 @@
 To create a employee directory application to view non-sensitive data of entire employees. Filter and sort function to allows user to have quick access to specific employees.
 
 ## Acceptance Criteria
-- Generate table of random users generated from the Random User API
+- Generate table of random users from the Random User API
 - Sort the table by at least one category
 - Filter the users by at least one property.
-- Deploy this site to GitHub Pages
+- Deploy this application to GitHub Pages
 
 ## Application
 
