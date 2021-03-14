@@ -14,7 +14,7 @@ To create a employee directory application to view non-sensitive data of entire 
 ### Github Repository URL
 https://github.com/thammaraku/employee_directory_react
 
-### Heroku Deployed Link
+### Github Pages Deployed Link
 https://thammaraku.github.io/employee_directory_react/
 
 ### Application Screenshot
